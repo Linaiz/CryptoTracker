@@ -1,5 +1,6 @@
 package com.plcoding.cryptotracker.crypto.presentation.coin_list
 
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -17,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import com.plcoding.cryptotracker.crypto.presentation.coin_list.components.CoinListItem
 import com.plcoding.cryptotracker.crypto.presentation.coin_list.components.previewCoin
 import com.plcoding.cryptotracker.ui.theme.CryptoTrackerTheme
+
 
 @Composable
 fun CoinListScreen(
