@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
                             is CoinListEvent.Error -> {
                                 Toast.makeText(
                                     context,
-                                    event.error.toString(),
+                                    event.error.toString(context),
                                     Toast.LENGTH_LONG
                                 ).show()
                             }
